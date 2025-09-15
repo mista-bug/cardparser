@@ -22,7 +22,11 @@ class ParserTest extends TestCase
             [
                 'cards' => 'B;C9;DQ:P1;D7;SJ:P2;H9;D2;H9:P3;SQ;C5',
                 'code' => 'BJ',
-            ]
+            ],
+            // [
+            //     'cards' => 'P;S9;HT;DA;CQ;DQ:B;S5;CJ;CK;C2;H2:T;DQ;DA;S9;H9;S4',
+            //     'code' => 'POKER'
+            // ],
         ];
 
         foreach ($testData as $data) {

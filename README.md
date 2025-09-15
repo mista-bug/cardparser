@@ -1,5 +1,19 @@
-##
-**Sample Usage**
+## About
+
+A simple PHP library for parsing and representing card game data.
+
+Currently supports : 
+ - Blackjack
+ - Baccarat
+ - Andar Bahar
+
+## ⚙️ Requirements
+
+- PHP 8.2+
+- Composer
+- PHPUnit (for running tests)
+
+## **Sample Usage**
 ```php
     $parser = new Parser(
         cardString: 'B;C9;DQ:P1;D7;SJ:P2;H9;D2;H9:P3;SQ;C5',
@@ -7,7 +21,7 @@
     );
 ```
 
-**Results**
+## **Results**
 ```php
 object(MrBug\Cardparser\Parser)#646 (4) {
   ["game":protected]=>

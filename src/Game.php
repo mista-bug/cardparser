@@ -20,7 +20,7 @@ class Game {
             "AB"        => "Andar Bahar",
             "BAC"       => "Baccarat",
             "BJ"        => "Blackjack",
-            "POKER"     => "Poker",
+            // "POKER"     => "Poker",
             default => null,
         };
     }
